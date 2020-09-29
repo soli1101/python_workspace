@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+div { 
+    width: 100px;
+    padding: 50px;
+}
+#div1 {
+    height: 100px;
+    position: absolute;
+    right: 100px;
+    background-color: cadetblue;
+}
+#div2 {
+    height: 50px;
+    position: absolute;
+    left: 200px;
+    top: 150px;
+    background-color: rgb(31, 96, 180);
+}
+#div3 {
+    width: 50px; height: 50px;
+    border-radius: 30px;
+    background-color: rgb(219, 29, 15);
+}
+#div3:hover{
+    background-color: darkblue;
+}
+#div3:active{
+    background-color: darkcyan;
+}
